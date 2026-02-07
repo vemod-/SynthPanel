@@ -10,7 +10,7 @@ public:
     explicit QSynthPanel(QWidget *parent = 0);
     ~QSynthPanel();
 protected:
-    //void paintEvent(QPaintEvent *);
+    void paintEvent(QPaintEvent *e);
 };
 
 #endif // QSYNTHPANEL_H
